@@ -5,7 +5,11 @@
       "required": true,
       "label": "Video title",
       "publish": {
-        "placement": "main"
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
       }
     },
     "url": {
@@ -13,14 +17,22 @@
       "required": true,
       "label": "Video URL",
       "publish": {
-        "placement": "main"
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
       }
     },
     "allowFullScreen": {
       "type": "Boolean",
       "label": "Allow full screen player",
       "publish": {
-        "placement": "sidebar"
+        "placement": "sidebar",
+        "display": {
+          "list": true,
+          "edit": true
+        }
       }
     },
     "thumbnail": {
@@ -33,7 +45,11 @@
       },
       "publish": {
         "subType": "Image",
-        "placement": "sidebar"
+        "placement": "sidebar",
+        "display": {
+          "list": false,
+          "edit": true
+        }
       }
     }
   },

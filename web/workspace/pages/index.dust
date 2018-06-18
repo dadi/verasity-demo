@@ -3,8 +3,11 @@
 <h1>Videos</h1>
 
 {#videos.results}
-  <p>Video: {url} (full screen: {allowFullScreen})</p>
-
+  <div>
+    <h3>Title: {title}</h3>
+    <img src="{thumbnail[0].path}"/>
+    <p>Video: {url} (allows full screen: {allowFullScreen})</p>
+  </div>
 {/videos.results}
 
 {>"partials/footer"/}

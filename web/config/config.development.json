@@ -21,5 +21,8 @@
         "secret": "vera-secret"
       }
     }
+  },
+  "paths": {
+    "public": "workspace/public"
   }
 }
