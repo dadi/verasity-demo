@@ -7,7 +7,7 @@
   ],
   "routes": [
     {
-      "path": "/"
+      "path": "/:videoId?"
     }
   ]
 }

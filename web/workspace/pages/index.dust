@@ -1,7 +1,7 @@
 {>"partials/header"/}
 
 <div class="player">
-  <iframe border="0" src="https://verasity.io/player?utm_campaign=coincodex" width="560" height="315" allowfullscreen="true" frameborder="0"></iframe>
+  <iframe border="0" src="https://verasity.io/player/{videoId}" width="560" height="315" allowfullscreen="true" frameborder="0"></iframe>
 </div>
 
 {#videos.results}
@@ -9,7 +9,6 @@
     <div class="video__inner">
       <h2 class="video__title">{title}</h2>
       <img class="video__thumb" src="{thumbnail[0].path}" width="150">
-      <p class="video__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
       <div class="video__play">►</div>
     </div>
   </a>
