@@ -15,8 +15,8 @@
       "version": "1.0",
       "database": "verasity",
       "credentials": {
-        "clientId": "testClient",
-        "secret": "superSecret"
+        "clientId": "vera-client",
+        "secret": "vera-secret"
       }
     }
   ],

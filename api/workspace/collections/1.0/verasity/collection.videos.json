@@ -1,5 +1,13 @@
 {
   "fields": {
+    "title": {
+      "type": "String",
+      "required": true,
+      "label": "Video title",
+      "publish": {
+        "placement": "main"
+      }
+    },
     "url": {
       "type": "String",
       "required": true,
@@ -14,9 +22,23 @@
       "publish": {
         "placement": "sidebar"
       }
+    },
+    "thumbnail": {
+      "type": "Reference",
+      "label": "Thumbnail image",
+      "message": "jpg or png",
+      "required": false,
+      "settings": {
+        "collection": "mediaStore"
+      },
+      "publish": {
+        "subType": "Image",
+        "placement": "sidebar"
+      }
     }
   },
   "settings": {
+    "compose": true,
     "displayName": "Videos",
     "cache": false,
     "count": 40,
