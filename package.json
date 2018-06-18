@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "install": "cd api && npm install && cd ../publish && npm install && cd ../web && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadi/verasity-demo.git"
+  }
+}
