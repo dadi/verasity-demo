@@ -1,5 +1,9 @@
 {>"partials/header"/}
 
+<h1>A video</h1>
+
+<iframe border="0" src="https://verasity.io/player?utm_campaign=coincodex" width="560" height="315" allowfullscreen="true"></iframe>
+
 <h1>Videos</h1>
 
 {#videos.results}
