@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "url": {
+      "type": "String",
+      "required": true,
+      "label": "Video URL",
+      "publish": {
+        "placement": "main"
+      }
+    },
+    "allowFullScreen": {
+      "type": "Boolean",
+      "label": "Allow full screen player",
+      "publish": {
+        "placement": "sidebar"
+      }
+    }
+  },
+  "settings": {
+    "displayName": "Videos",
+    "cache": false,
+    "count": 40,
+    "storeRevisions": false
+  }
+}
