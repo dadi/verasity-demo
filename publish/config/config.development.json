@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "DADI x Verasity CMS",
+    "publisher": "Verasity"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3030
+  },
+  "apis": [
+    {
+      "name": "Verasity API",
+      "host": "http://127.0.0.1",
+      "port": 8081,
+      "version": "1.0",
+      "database": "verasity",
+      "credentials": {
+        "clientId": "testClient",
+        "secret": "superSecret"
+      }
+    }
+  ],
+  "publicUrl": {
+    "host": "127.0.0.1",
+    "port": 3030,
+    "protocol": "http"
+  }
+}
