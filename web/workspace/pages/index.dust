@@ -1,0 +1,3 @@
+{#videos.results}
+  <p>Video: {url} (full screen: {allowFullScreen})</p>
+{/videos.results}

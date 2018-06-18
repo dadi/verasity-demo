@@ -1,0 +1,13 @@
+{
+  "page": {
+    "key": "index"
+  },
+  "datasources": [
+    "videos"
+  ],
+  "routes": [
+    {
+      "path": "/"
+    }
+  ]
+}

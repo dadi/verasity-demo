@@ -1,0 +1,12 @@
+{
+  "name": "dadi.cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "David Longworth <dl@dadi.co>",
+  "license": "ISC",
+  "dependencies": {
+    "@dadi/web": "^6.0.0",
+    "@dadi/web-dustjs": "^1.1.3"
+  }
+}

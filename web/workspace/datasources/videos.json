@@ -1,0 +1,14 @@
+{
+  "datasource": {
+    "key": "videos",
+    "source": {
+      "type": "dadiapi",
+      "endpoint": "1.0/verasity/videos"
+    },
+    "count": 20,
+    "paginate": true,
+    "sort": {
+      "_publishedAt": -1
+    }
+  }
+}
