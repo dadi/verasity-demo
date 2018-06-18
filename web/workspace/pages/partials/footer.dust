@@ -1,5 +1,9 @@
+</main>
+
 <footer>
-  Powered by DADI x Verasity
+  <div class="cnt">
+    Powered by <a href="https://dadi.cloud" class="dadi">DADI</a>
+  </div>
 </footer>
 
 </body>
